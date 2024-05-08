@@ -28,6 +28,11 @@ public class Controller {
         int userId = Integer.parseInt(user.getId());
 
         userId = userId + 1 / 3;
+        userId = userId + 2 / 3;
+        userId = userId + 3 / 3;
+        userId = userId + 4 / 3;
+        userId = userId + 5 / 3;
+
         System.out.println("userId = " + userId);
         return user;
     }
