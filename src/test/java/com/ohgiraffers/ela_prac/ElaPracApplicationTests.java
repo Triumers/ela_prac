@@ -10,4 +10,14 @@ class ElaPracApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void testSuccess() {
+		assert(true);
+	}
+
+	@Test
+	void testFail() {
+		assert(false);
+	}
+
 }
