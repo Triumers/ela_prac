@@ -25,6 +25,9 @@ jobs:
       - name: Gradle 설정
         uses: gradle/actions/setup-gradle@v3
 
+      - name: Gradle 버전
+        run: ./gradlew wrapper --gradle-version 8.7
+
       - name: Gradle 빌드
         run: ./gradlew build
         env:
